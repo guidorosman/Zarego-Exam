@@ -47,3 +47,7 @@ docker-compose exec workspace bash
 ```
 php artisan migrate
 ```
+
+## Testing Emails
+
+If you want to test emails you cab use Miltrap. Go to the web site <https://mailtrap.io/>

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7461a9;;
+}
+
+.pbFrase{
+    padding-bottom: 5rem;
+}
+
+.ptFooter{
+    padding-top: 6rem;
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+
+    #footer{
+        display: none;
+    }
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+    
+    .ptFooter{
+        padding-top: 10rem;
+    }
+}

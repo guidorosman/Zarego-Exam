@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7461a9;
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+.btn-home {
+	margin-top: 50px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #151c44;
+    font-weight: 700;
+    width: 150px;
+}

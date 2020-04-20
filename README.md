@@ -3,8 +3,47 @@ A Laravel project with Laradock. It consists in three pages. The index which has
 
 ## Installation
 
-1. Clone the git repository in your local machine:
+1. Clone the git repository in your local machine. Open the terminal and write:
 
 ```
 git clone https://github.com/guidorosman/Zarego-Examen.git
+```
+
+2. Enter project directory:
+
+```
+cd Zarego-Examen
+```
+
+3. Give permissons to storage and bootstrap/cache so laravel can run correctly
+
+
+```
+chmod 777 -R storage
+```
+
+```
+chmod 777 -R bootstrap/cache
+```
+
+4. Enter laradock subdirectory
+
+```
+cd laradock
+```
+
+5. Run the nginx and mysql containers to generate the virtual environment to run laravel project
+
+```
+docker-compose up -d nginx mysql
+```
+
+6. By last, enter the Workspace container and execute php artisan migrate to create the tables we need in the database
+
+```
+docker-compose exec workspace bash
+```
+
+```
+php artisan migrate
 ```

@@ -64,10 +64,10 @@ MAIL_PASSWORD=yourpasword
 
 ## Built With
 
-⋅⋅* Laravel
-⋅⋅* Laradock
-⋅⋅* Visual Studio Code
-⋅⋅* Mailtrap
++ Laravel
++ Laradock
++ Visual Studio Code
++ Mailtrap
 
 ## Author
 

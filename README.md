@@ -1,5 +1,5 @@
 # Zarego-Examen
-A Laravel project with Laradock. It consists in three pages. The index which has two links to go to a video page or a form page where an user can register. After registration, the user will recive an email with information and a thank's page will be shown. If the user was already registered a warning page will be shown.
+A Laravel project with Laradock. It consists in three pages. The index which has two links to go to a video page or a form page where an user can register. After registration, the user will recive an email with information and a thank's page will be shown. If the user was already registered a warning page will be shown. The project was also developed to be displayed on Ipads
 
 ## Prerequisites
 
@@ -66,6 +66,7 @@ MAIL_PASSWORD=yourpasword
 
 + Laravel
 + Laradock
++ Bootstrap
 + Visual Studio Code
 + Mailtrap
 

@@ -50,4 +50,9 @@ php artisan migrate
 
 ## Testing Emails
 
-If you want to test emails you cab use Miltrap. Go to the web site <https://mailtrap.io/>
+If you want to test emails you can use Miltrap. Go to the web site <https://mailtrap.io/> and sign in or register. Then create a new inbox, and update the .env file in the project with the username and password that Mailtrap generate to you:
+
+In the .env file you will find somethin like this:
+
+MAIL_USERNAME=yourusername
+MAIL_PASSWORD=yourpasword

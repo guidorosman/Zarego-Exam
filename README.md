@@ -30,19 +30,25 @@ chmod 777 -R storage
 chmod 777 -R bootstrap/cache
 ```
 
-4. Enter laradock subdirectory
+4. Clone laradock
+
+```
+git clone https://github.com/Laradock/laradock.git
+```
+
+5. Enter laradock subdirectory
 
 ```
 cd laradock
 ```
 
-5. Run the nginx and mysql containers to generate the virtual environment to run laravel project
+6. Run the nginx and mysql containers to generate the virtual environment to run laravel project
 
 ```
 docker-compose up -d nginx mysql
 ```
 
-6. By last, enter the Workspace container and execute php artisan migrate to create the tables we need in the database
+7. By last, enter the Workspace container and execute php artisan migrate to create the tables we need in the database
 
 ```
 docker-compose exec workspace bash
